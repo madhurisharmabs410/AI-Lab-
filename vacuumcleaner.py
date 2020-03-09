@@ -8,8 +8,8 @@ class Environment(object):
         self.locationCondition = {'A': '0', 'B': '0'}
 
         # randomize conditions in locations A and B
-        self.locationCondition['A'] = int(input())
-        self.locationCondition['B'] = int(input())
+        self.locationCondition['A'] = int(input("Enter location A value"))
+        self.locationCondition['B'] = int(input("Enter location B value "))
 
 
 class SimpleReflexVacuumAgent(Environment):
